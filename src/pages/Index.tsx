@@ -24,13 +24,13 @@ const Index = () => {
       {/* Content with flowing sections */}
       <div className="relative z-10">
         <MysticalHeader 
-          title="НАСЛЕДСТВЕННАЯ ЯСНОВИДЯЩАЯ"
-          subtitle="ГАДАЛКА • ЭКСТРАСЕНС • МЕДИУМ • ЦЕЛИТЕЛЬНИЦА"
+          title="HEREDITARY CLAIRVOYANT"
+          subtitle="FORTUNE TELLER • PSYCHIC • MEDIUM • HEALER"
         />
         
         <FortunetellerPortrait 
-          name="Елена Владимировна"
-          description="Потомственная ясновидящая в 3-м поколении. Более 25 лет помогаю людям найти ответы на самые важные вопросы жизни. Работаю с картами Таро, рунами, кристаллами. Провожу ритуалы любовной магии, снимаю негативные воздействия, привлекаю удачу и благополучие."
+          name="Elena Vladimirovna"
+          description="A hereditary clairvoyant in the 3rd generation. For over 25 years I have been helping people find answers to the most important questions of life. I work with Tarot cards, runes, crystals. I perform rituals of love magic, remove negative influences, attract good luck and well-being."
         />
         
         <ServicesList />
@@ -41,7 +41,7 @@ const Index = () => {
         
         <WhatsAppButton 
           phoneNumber="79001234567"
-          message="Здравствуйте! Меня интересует консультация ясновидящей. Когда можно записаться?"
+          message="Hello! I am interested in a consultation with a clairvoyant. When can I make an appointment?"
         />
         
         <MysticalFooter />

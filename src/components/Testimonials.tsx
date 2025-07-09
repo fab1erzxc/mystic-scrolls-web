@@ -13,18 +13,18 @@ const Testimonials = () => {
 
   const testimonials: Testimonial[] = [
     {
-      name: "Мария, 42 года",
-      text: "Елена Владимировна помогла мне вернуть любовь в семью. Муж стал внимательнее, дети послушнее. Рекомендую всем!",
+      name: "Maria, 42 years old",
+      text: "Elena Vladimirovna helped me bring love back to my family. My husband became more attentive, my children more obedient. I recommend her to everyone!",
       rating: 5
     },
     {
-      name: "Светлана, 38 лет", 
-      text: "Обратилась с проблемами на работе. После консультации все наладилось - получила повышение и прибавку к зарплате.",
+      name: "Svetlana, 38 years old", 
+      text: "I had problems at work. After the consultation, everything worked out - I got a promotion and a raise.",
       rating: 5
     },
     {
-      name: "Анна, 45 лет",
-      text: "Долго мучилась от негативного воздействия. Елена Владимировна сняла порчу, теперь жизнь изменилась к лучшему.",
+      name: "Anna, 45 years old",
+      text: "I suffered from a negative influence for a long time. Elena Vladimirovna removed the curse, now my life has changed for the better.",
       rating: 5
     }
   ];
@@ -47,7 +47,7 @@ const Testimonials = () => {
         ref={titleRef}
         className="mystical-heading text-3xl md:text-4xl text-center mb-12 text-primary scroll-reveal-scale"
       >
-        Отзывы клиентов
+        Client testimonials
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">

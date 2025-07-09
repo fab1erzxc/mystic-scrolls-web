@@ -18,37 +18,37 @@ const MysticalFooter = () => {
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-2 mb-2">
               <Clock className="w-5 h-5 text-primary mystical-float" />
-              <span className="mystical-heading text-primary">Время работы</span>
+              <span className="mystical-heading text-primary">Working hours</span>
             </div>
             <p className="mystical-text text-card-foreground text-sm">
-              Ежедневно с 9:00 до 22:00
+              Daily from 9:00 to 22:00
             </p>
           </div>
           
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-2 mb-2">
               <MapPin className="w-5 h-5 text-primary mystical-float-delayed" />
-              <span className="mystical-heading text-primary">Локация</span>
+              <span className="mystical-heading text-primary">Location</span>
             </div>
             <p className="mystical-text text-card-foreground text-sm">
-              Консультации онлайн и офлайн
+              Online and offline consultations
             </p>
           </div>
           
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-2 mb-2">
               <Phone className="w-5 h-5 text-primary mystical-float" />
-              <span className="mystical-heading text-primary">Контакты</span>
+              <span className="mystical-heading text-primary">Contacts</span>
             </div>
             <p className="mystical-text text-card-foreground text-sm">
-              Связь только через WhatsApp
+              Communication only via WhatsApp
             </p>
           </div>
         </div>
         
         <div className="text-center mt-8 pt-8 border-t border-border">
           <p className="mystical-text text-muted-foreground text-sm">
-            © 2024 Наследственная Ясновидящая. Помогу найти ответы на важные вопросы.
+            © 2024 Hereditary Clairvoyant. I will help you find answers to important questions.
           </p>
         </div>
       </div>

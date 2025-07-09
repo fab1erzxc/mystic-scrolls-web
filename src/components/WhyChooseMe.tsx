@@ -8,23 +8,23 @@ const WhyChooseMe = () => {
   const advantages = [
     {
       icon: <Award className="w-12 h-12 text-primary mystical-float" />,
-      title: "25+ лет опыта",
-      description: "Потомственная ясновидящая в 3-м поколении"
+      title: "25+ years of experience",
+      description: "Hereditary clairvoyant in the 3rd generation"
     },
     {
       icon: <Users className="w-12 h-12 text-primary mystical-float-delayed" />,
-      title: "1000+ довольных клиентов",
-      description: "Помогла решить проблемы в семье и бизнесе"
+      title: "1000+ satisfied clients",
+      description: "Helped solve problems in family and business"
     },
     {
       icon: <Clock className="w-12 h-12 text-primary mystical-float" />,
-      title: "Быстрый результат",
-      description: "Первые изменения уже через 3-7 дней"
+      title: "Fast results",
+      description: "First changes in 3-7 days"
     },
     {
       icon: <Shield className="w-12 h-12 text-primary mystical-float-delayed" />,
-      title: "Гарантия качества",
-      description: "Работаю до получения результата"
+      title: "Quality guarantee",
+      description: "I work until I get the result"
     }
   ];
 
@@ -40,7 +40,7 @@ const WhyChooseMe = () => {
         ref={titleRef}
         className="mystical-heading text-3xl md:text-4xl text-center mb-12 text-primary scroll-reveal-scale"
       >
-        Почему выбирают меня?
+        Why choose me?
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">

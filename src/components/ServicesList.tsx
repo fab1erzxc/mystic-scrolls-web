@@ -14,23 +14,23 @@ const ServicesList = () => {
   const services: Service[] = [
     {
       icon: <Star className="w-8 h-8 text-primary mystical-float" />,
-      title: "Гадание на картах Таро",
-      description: "Откройте тайны прошлого, настоящего и будущего через древние карты Таро"
+      title: "Tarot card reading",
+      description: "Discover the secrets of the past, present and future through ancient Tarot cards"
     },
     {
       icon: <Heart className="w-8 h-8 text-primary mystical-float-delayed" />,
-      title: "Любовная магия",
-      description: "Верну любовь, укреплю отношения, привлеку вторую половинку"
+      title: "Love magic",
+      description: "I will return love, strengthen relationships, attract a soul mate"
     },
     {
       icon: <Shield className="w-8 h-8 text-primary mystical-float" />,
-      title: "Снятие негатива",
-      description: "Защищу от врагов, сниму порчу и сглаз, очищу энергетику"
+      title: "Removal of negativity",
+      description: "I will protect you from enemies, remove damage and the evil eye, cleanse your energy"
     },
     {
       icon: <Coins className="w-8 h-8 text-primary mystical-float-delayed" />,
-      title: "Привлечение удачи",
-      description: "Открою денежные каналы, привлеку успех в делах и бизнесе"
+      title: "Attracting good luck",
+      description: "I will open money channels, attract success in business"
     }
   ];
 
@@ -43,7 +43,7 @@ const ServicesList = () => {
         ref={titleRef}
         className="mystical-heading text-3xl md:text-4xl text-center mb-12 text-primary scroll-reveal-scale"
       >
-        Мои услуги
+        My services
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
