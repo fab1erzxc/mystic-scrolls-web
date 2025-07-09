@@ -1,4 +1,5 @@
 import fortuneTellerPortrait from '@/assets/fortune-teller-portrait.jpg';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 interface FortunetellerPortraitProps {
   name: string;
@@ -6,9 +7,20 @@ interface FortunetellerPortraitProps {
 }
 
 const FortunetellerPortrait = ({ name, description }: FortunetellerPortraitProps) => {
+  const sectionRef = useScrollReveal<HTMLElement>();
+  const imageRef = useScrollReveal<HTMLDivElement>();
+  const nameRef = useScrollReveal<HTMLHeadingElement>();
+  const descriptionRef = useScrollReveal<HTMLParagraphElement>();
+
   return (
-    <section className="flex flex-col items-center py-8 px-4">
-      <div className="mystical-border mystical-glow mb-8 max-w-sm">
+    <section 
+      ref={sectionRef}
+      className="flex flex-col items-center py-12 px-4 mystical-section scroll-reveal"
+    >
+      <div 
+        ref={imageRef}
+        className="mystical-border mystical-glow mystical-pulse mb-8 max-w-sm scroll-reveal-scale"
+      >
         <img 
           src={fortuneTellerPortrait} 
           alt={name}
@@ -17,11 +29,17 @@ const FortunetellerPortrait = ({ name, description }: FortunetellerPortraitProps
       </div>
       
       <div className="text-center max-w-2xl">
-        <h2 className="mystical-heading text-2xl md:text-3xl mb-6 text-primary">
+        <h2 
+          ref={nameRef}
+          className="mystical-heading text-2xl md:text-3xl mb-6 text-primary scroll-reveal-left delay-1"
+        >
           {name}
         </h2>
         
-        <p className="mystical-text text-base md:text-lg leading-relaxed text-foreground">
+        <p 
+          ref={descriptionRef}
+          className="mystical-text text-base md:text-lg leading-relaxed text-foreground scroll-reveal-right delay-2"
+        >
           {description}
         </p>
       </div>

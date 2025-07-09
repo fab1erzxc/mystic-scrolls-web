@@ -21,7 +21,7 @@ const Index = () => {
         }}
       />
       
-      {/* Content */}
+      {/* Content with flowing sections */}
       <div className="relative z-10">
         <MysticalHeader 
           title="НАСЛЕДСТВЕННАЯ ЯСНОВИДЯЩАЯ"
