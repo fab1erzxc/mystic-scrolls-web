@@ -1,4 +1,4 @@
-import fortuneTellerPortrait from '@/assets/main-portrait.jpg';
+// import fortuneTellerPortrait from '@/assets/main-portrait.jpg';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 interface FortunetellerPortraitProps {
@@ -22,7 +22,7 @@ const FortunetellerPortrait = ({ name, description }: FortunetellerPortraitProps
         className="mystical-border mystical-glow mystical-pulse mb-8 max-w-sm scroll-reveal-scale"
       >
         <img 
-          src={fortuneTellerPortrait} 
+          src="/lovable-uploads/ae679855-d462-4ac8-bb89-bd1e22a7d351.png" 
           alt={name}
           className="w-full h-auto rounded-lg"
         />

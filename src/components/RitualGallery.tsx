@@ -1,27 +1,23 @@
 import { useScrollReveal } from '@/hooks/useScrollReveal';
-import ritualCards from '@/assets/ritual-cards.jpg';
-import ritualPentagram from '@/assets/ritual-pentagram.jpg';
-import ritualCandles from '@/assets/ritual-candles.jpg';
-import ritualTarot from '@/assets/ritual-tarot.jpg';
 
 const rituals = [
   {
-    image: ritualCards,
+    image: "/lovable-uploads/2470b693-1d8c-4bc3-a797-539aaa4ff23c.png",
     title: "Divination Reading",
     description: "Sacred card reading with crystals and herbs to reveal hidden truths and future paths."
   },
   {
-    image: ritualPentagram,
+    image: "/lovable-uploads/33721e5a-a118-40f4-a342-a4c0f9523f5e.png",
     title: "Protection Ritual",
     description: "Powerful pentagram ceremony for spiritual protection and energy cleansing."
   },
   {
-    image: ritualCandles,
+    image: "/lovable-uploads/a56adfb8-98ca-4daf-9a57-98e06e027d38.png",
     title: "Healing Circle",
     description: "Candlelight healing ritual with natural herbs for emotional and spiritual restoration."
   },
   {
-    image: ritualTarot,
+    image: "/lovable-uploads/1e4c10e8-3bfb-457e-8af1-b23d9c656750.png",
     title: "Love Attraction",
     description: "Ancient tarot ceremony with golden elements to attract love and strengthen relationships."
   }
