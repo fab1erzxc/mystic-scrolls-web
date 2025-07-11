@@ -1,6 +1,7 @@
 import MysticalHeader from '@/components/MysticalHeader';
 import FortunetellerPortrait from '@/components/FortunetellerPortrait';
 import ServicesList from '@/components/ServicesList';
+import RitualGallery from '@/components/RitualGallery';
 import WhyChooseMe from '@/components/WhyChooseMe';
 import Testimonials from '@/components/Testimonials';
 import WhatsAppButton from '@/components/WhatsAppButton';
@@ -34,6 +35,8 @@ const Index = () => {
         />
         
         <ServicesList />
+        
+        <RitualGallery />
         
         <WhyChooseMe />
         

@@ -1,4 +1,4 @@
-import fortuneTellerPortrait from '@/assets/fortune-teller-portrait.jpg';
+import fortuneTellerPortrait from '@/assets/main-portrait.jpg';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 interface FortunetellerPortraitProps {
