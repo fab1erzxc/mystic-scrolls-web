@@ -30,8 +30,8 @@ const Index = () => {
         />
         
         <FortunetellerPortrait 
-          name="Elena Vladimirovna"
-          description="A hereditary clairvoyant in the 3rd generation. For over 25 years I have been helping people find answers to the most important questions of life. I work with Tarot cards, runes, crystals. I perform rituals of love magic, remove negative influences, attract good luck and well-being."
+          name="Diana the Fortune Teller"
+          description="A hereditary clairvoyant with over 25 years of experience helping people find answers to life's most important questions. I work with Tarot cards, runes, crystals. I perform love magic rituals, remove negative influences, attract good luck and well-being."
         />
         
         <ServicesList />

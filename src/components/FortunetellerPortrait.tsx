@@ -23,7 +23,7 @@ const FortunetellerPortrait = ({ name, description }: FortunetellerPortraitProps
       >
         <img 
           src="/lovable-uploads/ae679855-d462-4ac8-bb89-bd1e22a7d351.png" 
-          alt={name}
+          alt="Diana the Fortune Teller"
           className="w-full h-auto rounded-lg"
         />
       </div>
